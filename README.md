@@ -1,13 +1,12 @@
 # AI Data Analytics Dashboard
 
-## Welcome Let's See it 
-![Dashboard Preview](./MindMap.png)
-
 
 ## 🌐 Live Demo
 [![Open in Browser](https://img.shields.io/badge/View-Live_Demo-green?style=for-the-badge)](https://natural-language-data-dashboard.onrender.com)
 
-## Mind Map 
+
+
+## Welcome Let's See it 
 ![Dashboard Preview](./MindMap.png)
 
 ## Overview
@@ -99,8 +98,9 @@ Vite (build tool)
 
 ## More Outputs of the Website
 
-![Dashboard Preview](./MindMap.png)
-![Dashboard Preview](./MindMap.png)
+![Dashboard Preview](./GG_0.png)
+![Dashboard Preview](./GG_2.png)
+![Dashboard Preview](./GG_3.png)
 
 
 This README:
