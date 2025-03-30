@@ -1,5 +1,9 @@
 # AI Data Analytics Dashboard
 
+## Welcome Let's See it 
+![Dashboard Preview](./MindMap.png)
+
+
 ## 🌐 Live Demo
 [![Open in Browser](https://img.shields.io/badge/View-Live_Demo-green?style=for-the-badge)](https://natural-language-data-dashboard.onrender.com)
 
@@ -19,53 +23,22 @@ A dynamic dashboard that simulates AI-powered natural language data analysis wit
 ## Evaluation Focus
 
 ## 🏗️ Project Structure
-src/
-├── components/
-│ ├── QueryInput/ # Natural language input component
-│ ├── QueryHistory/ # Previous queries sidebar
-│ ├── ResultsDisplay/ # Visualization container
-│ ├── SuggestionList/ # AI-powered suggestions
-│ ├── LoadingState/ # Loading animations
-│ └── ErrorState/ # Error handling UI
-├── store/
-│ ├── querySlice.js # Redux query state
-│ └── store.js # Redux store config
-├── utils/
-│ ├── mockAI.js # AI simulation logic
-│ └── mockDataGenerator.js # Dynamic data generation
-└── ...
+## Mind Map 
+![Dashboard Preview](./MindMap.png)
+
 
 ### Key Components Breakdown
 
 | Component | Purpose |
 |-----------|---------|
 | **QueryInput** | Handles natural language queries with validation |
+| **QueryHistory** | Handles and displays the past searched quereis |
+| **ResultsDisplay** | Displays the mock Data from the fakerjs library |
+| **SuggestionList** | Hard-coded lists with dynamic rendering like AI generated obtained using Promise and setTimeout |
+| **Loading/Error State** | Loading and Error states |
 | **mockAI** | Simulates NLP processing and intent recognition |
 | **querySlice** | Manages query state and history |
 | **mockDataGenerator** | Creates realistic analytics datasets |
-
-To ensure proper formatting in Markdown:
-1. Use triple backticks (```) for code blocks
-2. Indent with 3 spaces for tree structure levels
-3. Add vertical pipes (`|`) for tables
-4. Include emojis for visual scannability
-
-The structure will now:
-- Maintain proper alignment
-- Display as a visible directory tree
-- Include explanatory tables
-- Work on GitHub/GitLab
-- Remain copy-paste friendly
-
-For additional formatting options:
-```markdown
-<pre>
-src/
-├── <strong>components/</strong>
-│   ├── <span style="color:blue">QueryInput</span>/
-│   └── <span style="color:blue">ResultsDisplay</span>/
-</pre>
-Components follow atomic design principles with clear separation of concerns. Smart containers manage data while presentational components handle rendering.
 
 ### State Management Efficiency
 - **Redux Toolkit** for centralized state
@@ -106,27 +79,28 @@ Components follow atomic design principles with clear separation of concerns. Sm
 npm install
 npm run dev
 
+```
+
 Scripts
 Command	Description
+```bash
 npm run dev	Start development server
 npm run build	Create production build
 npm run preview	Preview production build
 npm run test	Run test suite (TODO)
-
+```
 Dependencies
+React 18+
+Redux Toolkit
+Recharts
+Tailwind CSS
+Faker.js (mock data)
+Vite (build tool)
 
-    React 18+
+## More Outputs of the Website
 
-    Redux Toolkit
-
-    Recharts
-
-    Tailwind CSS
-
-    Faker.js (mock data)
-
-    Vite (build tool)
-
+![Dashboard Preview](./MindMap.png)
+![Dashboard Preview](./MindMap.png)
 
 
 This README:
