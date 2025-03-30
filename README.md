@@ -3,8 +3,7 @@
 ## 🌐 Live Demo
 [![Open in Browser](https://img.shields.io/badge/View-Live_Demo-green?style=for-the-badge)](https://natural-language-data-dashboard.onrender.com)
 
-![Dashboard Preview]((https://github.com/guptahm/Data_Dashboard_Growth_Gear/blob/main/MindMap.png) *[Optional: Add screenshot]*
-
+![Dashboard Preview](https://raw.githubusercontent.com/GuptaHarry/Natural_Language_Data_Dashboard/main/MindMap.png)
 ## Overview
 A dynamic dashboard that simulates AI-powered natural language data analysis with mock data generation and interactive query capabilities.
 
