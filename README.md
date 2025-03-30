@@ -3,7 +3,9 @@
 ## 🌐 Live Demo
 [![Open in Browser](https://img.shields.io/badge/View-Live_Demo-green?style=for-the-badge)](https://natural-language-data-dashboard.onrender.com)
 
+## Mind Map 
 ![Dashboard Preview](./MindMap.png)
+
 ## Overview
 A dynamic dashboard that simulates AI-powered natural language data analysis with mock data generation and interactive query capabilities.
 
@@ -16,23 +18,53 @@ A dynamic dashboard that simulates AI-powered natural language data analysis wit
 
 ## Evaluation Focus
 
-### React Component Structure
+## 🏗️ Project Structure
 src/
 ├── components/
-│ ├── QueryInput
-│ ├── QueryHistory
-│ ├── ResultsDisplay
-| ├── SuggestionList
-| ├── LoadingState
-| ├── ErrorState
-├── Store/
-| ├── querySlice
-| ├── store
-├── Utils/
-| ├── mockAI
-| ├── mockDataGenerator
+│ ├── QueryInput/ # Natural language input component
+│ ├── QueryHistory/ # Previous queries sidebar
+│ ├── ResultsDisplay/ # Visualization container
+│ ├── SuggestionList/ # AI-powered suggestions
+│ ├── LoadingState/ # Loading animations
+│ └── ErrorState/ # Error handling UI
+├── store/
+│ ├── querySlice.js # Redux query state
+│ └── store.js # Redux store config
+├── utils/
+│ ├── mockAI.js # AI simulation logic
+│ └── mockDataGenerator.js # Dynamic data generation
+└── ...
 
+### Key Components Breakdown
 
+| Component | Purpose |
+|-----------|---------|
+| **QueryInput** | Handles natural language queries with validation |
+| **mockAI** | Simulates NLP processing and intent recognition |
+| **querySlice** | Manages query state and history |
+| **mockDataGenerator** | Creates realistic analytics datasets |
+
+To ensure proper formatting in Markdown:
+1. Use triple backticks (```) for code blocks
+2. Indent with 3 spaces for tree structure levels
+3. Add vertical pipes (`|`) for tables
+4. Include emojis for visual scannability
+
+The structure will now:
+- Maintain proper alignment
+- Display as a visible directory tree
+- Include explanatory tables
+- Work on GitHub/GitLab
+- Remain copy-paste friendly
+
+For additional formatting options:
+```markdown
+<pre>
+src/
+├── <strong>components/</strong>
+│   ├── <span style="color:blue">QueryInput</span>/
+│   └── <span style="color:blue">ResultsDisplay</span>/
+</pre>
 Components follow atomic design principles with clear separation of concerns. Smart containers manage data while presentational components handle rendering.
 
 ### State Management Efficiency
@@ -96,8 +128,6 @@ Dependencies
     Vite (build tool)
 
 
-##Roadmap/ MindMap might help you to understand the project more deeply
-![Mind Map](https://github.com/guptahm/Data_Dashboard_Growth_Gear/blob/main/MindMap.png)
 
 This README:
 1. Highlights your technical architecture decisions
