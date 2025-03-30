@@ -1,0 +1,26 @@
+{
+  "name": "growth_gear",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@reduxjs/toolkit": "^2.6.1",
+    "@tailwindcss/postcss": "^4.0.17",
+    "parcel": "^2.14.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "recharts": "^2.15.1",
+    "tailwindcss": "^4.0.17"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3"
+  }
+}
