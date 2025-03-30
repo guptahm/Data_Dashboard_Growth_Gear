@@ -7,7 +7,7 @@
 
 
 ## Welcome Let's See it 
-![Dashboard Preview](./MindMap.png)
+![Dashboard Preview](./GG_1.png)
 
 ## Overview
 A dynamic dashboard that simulates AI-powered natural language data analysis with mock data generation and interactive query capabilities.
