@@ -1,5 +1,8 @@
 # AI Data Analytics Dashboard
 
+## 🌐 Live Demo
+[![Open in Browser](https://img.shields.io/badge/View-Live_Demo-green?style=for-the-badge)](https://natural-language-data-dashboard.onrender.com)
+
 ![Dashboard Preview](public/dashboard-preview.png) *[Optional: Add screenshot]*
 
 ## Overview
@@ -95,7 +98,7 @@ Dependencies
 
 
 ##Roadmap/ MindMap might help you to understand the project more deeply
-![Mind Map](https://github.com/GuptaHarry/Natural_Language_Data_Dashboard/blob/main/MindMap.png)
+![Mind Map](https://github.com/guptahm/Data_Dashboard_Growth_Gear/blob/main/MindMap.png)
 
 This README:
 1. Highlights your technical architecture decisions
